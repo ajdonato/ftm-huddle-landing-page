@@ -20,7 +20,7 @@ body{
     width: 100vw;
     height: 100vh;
 
-    background-image: url('/images/bg-desktop.svg');
+    background-image: url('../images/bg-desktop.svg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
