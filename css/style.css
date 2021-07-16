@@ -34,7 +34,7 @@ body{
     align-items: center;
     justify-content: flex-start;
 
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
 }
 
 .content header img{
@@ -99,11 +99,13 @@ body{
 footer{
     display: flex;
     align-items:center;
-    justify-content: flex-end;
+    justify-content: space-around;
+    
+    flex-direction: row-reverse;
 }
 
 footer .icons{
-    margin-right: 12rem;
+    margin-left: 25rem;
 }
 
 footer .icons i {
@@ -129,4 +131,18 @@ footer .icons i.fa-facebook-f {
 
 footer .icons i.fa-instagram{
     padding: 1rem 1.1rem;
+}
+
+footer .attribution { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem; 
+    text-align: center; 
+    padding-top: 3rem;
+
+    color: #fff;
+}
+footer .attribution a { 
+    color: var(--soft-magenta);
+    text-decoration: none; 
+
 }
